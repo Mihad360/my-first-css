@@ -41,12 +41,57 @@ nav a{
 }
 .head{
     background-color: #FFF8F3;
+    background-image: url("./images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 .banner{
-    padding: 30px 30px 30px 130px;
+    padding: 30px 30px 0px 130px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .imo{
     width: 550px;
+}
+.wel{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.come{
+    font-size: 50px;
+    font-weight: lighter;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+.about{
+    font-size: 20px;
+    
+    color: #665f5f;
+}
+.bannerto{
+    width: 500px;
+}
+
+/* main section */
+
+.fastsec{
+    /* text-align: center; */
+    background-color: #FFF8F3;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 100px;
+    height: 500px;
+}
+.into{
+    padding-top: 80px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+.para{
+    text-align: center;
+    color: #696262;
+    line-height: 30px;
 }
