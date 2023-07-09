@@ -79,10 +79,13 @@ nav a{
 .fastsec{
     /* text-align: center; */
     background-color: #FFF8F3;
-    margin-left: 180px;
-    margin-right: 180px;
-    margin-top: 100px;
-    height: 500px;
+    /* margin-left: 180px; */
+    /* margin-right: 180px; */
+    /* margin-top: 100px; */
+    height: 470px;
+    max-width: 1140px;
+    margin:  auto;
+    margin-top: 130px;
 }
 .into{
     padding-top: 80px;
@@ -94,4 +97,16 @@ nav a{
     text-align: center;
     color: #696262;
     line-height: 30px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 30px  ;
+}
+.helo{
+    text-align: center;
+    color: #635c5c;
+}
+#doit{
+    padding: 30px 250px;
 }
