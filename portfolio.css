@@ -6,12 +6,13 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 130px;
 }
 .myhead{
     color: #181818;
     font-size: 45px;
     font-weight: 800;
-    
+    /* padding-left: 130px; */
 }
 .orange{
     color: #FD6E0A;
@@ -19,6 +20,7 @@ nav{
 nav > ul{
     display: flex;
     align-items: center;
+    /* padding-right: 50px; */
 }
 nav li{
     margin-right: 50px;
@@ -36,4 +38,15 @@ nav a{
     font-weight: 700;
     border: 0px;
     padding: 15px 35px;
+}
+.head{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 130px;
+    display: flex;
+    align-items: center;
+}
+.imo{
+    width: 550px;
 }
