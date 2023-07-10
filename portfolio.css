@@ -73,6 +73,9 @@ nav a{
 .bannerto{
     width: 500px;
 }
+main section{
+    margin-top: 130px;
+}
 
 /* main section */
 
@@ -83,7 +86,7 @@ nav a{
     /* margin-right: 180px; */
     /* margin-top: 100px; */
     height: 470px;
-    max-width: 1140px;
+    max-width: 1300px;
     margin:  auto;
     margin-top: 130px;
 }
@@ -97,6 +100,7 @@ nav a{
     text-align: center;
     color: #696262;
     line-height: 30px;
+    font-size: 600;
 }
 .about-container{
     display: flex;
@@ -109,4 +113,52 @@ nav a{
 }
 #doit{
     padding: 30px 250px;
+}
+
+.mainbox{
+    display: flex;
+    gap: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.first{
+    padding: 50px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+
+.resumecolamtitle{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.resume{
+    display: flex;
+    gap: 50px;
+}
+.resumeitemdescription{
+    color: #696868;
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.resume{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.resummeitemtitle{
+    font-size: 30px;
+}
+.resumecolamtitle{
+    font-size: 40px;
+}
+.bolo{
+    text-align: center;
+    padding-top: 50px;
 }
